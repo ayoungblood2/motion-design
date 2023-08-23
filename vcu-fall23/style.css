@@ -1,0 +1,234 @@
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=cf89cc27-e8e4-49eb-b993-24ab57236ed5&fontids=5310067");
+
+@font-face{
+  font-family:"Arial W05 Narrow5310067";
+  src:url("../Fonts/5310067/a59c86da-34b7-4530-94e1-4ecbc5a29fb1.woff2") format("woff2"),url("Fonts/5310067/f27a5cd7-0400-46f7-9a18-c1ebddd268e4.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body, 
+p,
+.h1 {
+  font-family: Arial W05 Narrow5310067, sans-Serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.1;
+}
+
+.container {
+	margin: 0px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  width: 100vw;
+  height: 100vh;
+	/* avoid browser level touch actions */
+	xtouch-action: none; 
+}
+
+.left {
+  width: 50vw;
+  /* border-left: 1px solid black; */
+}
+
+.left + .home{
+  background: lightgreen;
+}
+
+.right {
+  width: 50vw;
+}
+
+.home {
+  padding: 10px 10px 10px 10px;
+}
+
+.left, 
+.right {
+  overflow-y: scroll; 
+  overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+  height: 100vh;
+}
+
+.nav {
+  position: fixed;
+  text-align: center;
+  right: 10px;
+  width: 24px;
+  height: auto;
+  padding: 0px;
+  padding-bottom: 2px;
+  border-left: 1px solid black; 
+  border-bottom: 1px solid black; 
+  border-right: 1px solid black;
+  
+  background: lightgreen;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  z-index: 10;
+}
+
+a:hover {
+  color: white;
+}
+
+.row {
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  border-right: 1px solid black;
+
+  display: grid;
+  grid-template-columns: 36px auto;
+}
+
+img {
+  width: 100%;
+}
+
+.section {
+  padding: 10px 40px 10px 10px;
+  border-top: 1px solid black;
+}
+
+/* #syllabus {
+  border-top: 0px;
+} */
+
+#footer {
+  border-top: 0px;
+}
+
+/* #more {
+  height: 350px;
+} */
+
+img {
+  width: 100%;
+}
+
+
+/* COLOR
+-------------------------------------------------- */
+
+.p1 {
+  background: #e6d2db;
+}
+
+.p2 {
+  background: #eecdcd;
+}
+
+.p3 {
+  background: #d2e1f1;
+}
+
+.p4 {
+  background: #d8d2e7;
+}
+
+.blank {
+  color: white !important;
+}
+
+.today,
+#more {
+  background: lightgreen;
+}
+
+.demo {
+  color: orange;
+}
+.demo-link:hover {
+  color: orange;
+}
+
+
+.pres {
+  color: green;
+}
+.pres-link:hover {
+  color: green;
+}
+
+
+.guest {
+  color: red;
+}
+.guest-link:hover {
+  color: red;
+}
+
+
+.crit {
+  color: blue;
+}
+.crit-link:hover {
+  color: blue;
+}
+
+
+.read {
+  color: violet;
+}
+.read-link:hover {
+  color: violet;
+}
+
+.no-class {
+  color: lightgray;
+}
+
+/* TEXT
+--------------------------------------------------*/
+
+ol {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+blockquote {
+  margin-left: 20px;
+}
+
+
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 650px) {
+  html,
+  body, 
+  p,
+  .h1 {
+    font-size: 12px;
+    line-height: 1.1;
+  }
+
+  .row {
+    grid-template-columns: 26px auto;
+  }
+  
+} 
+
