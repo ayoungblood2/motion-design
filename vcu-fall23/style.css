@@ -99,10 +99,6 @@ a:hover {
   color: white;
 }
 
-#underline {
-  text-decoration: underline;
-}
-
 mark {
   background: lightgreen;
   /* highlight text */
