@@ -222,6 +222,14 @@ img {
   color: lightgray;
 }
 
+.transparent-link:hover{
+  color: transparent;
+}
+
+.green-link:hover{
+  color: lightgreen;
+}
+
 /* TEXT
 --------------------------------------------------*/
 
