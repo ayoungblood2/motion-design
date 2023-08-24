@@ -11,13 +11,25 @@
 }
 
 html,
-body, 
+body,
 p,
 .h1 {
   font-family: Arial W05 Narrow5310067, sans-Serif;
   font-size: 14px;
   font-style: normal;
   line-height: 1.1;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: hidden; 
+  overflow-x: hidden
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+div::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 .container {
@@ -39,7 +51,7 @@ p,
 
 .left {
   width: 50vw;
-  /* border-left: 1px solid black; */
+  border-right: 1px solid black;
 }
 
 .left + .home{
@@ -194,18 +206,18 @@ blockquote {
 
 #btm {
   border-top: 1px solid black;
-  border-right: 1px solid black;
   padding: 10px 10px 10px 10px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  width: 100VW;
-  height: 2.5rem;            /* Footer height */
+  height: 2.5rem;
+  text-align: center;
+  overflow: hidden;
 
-  width: auto;
+  width: 100vw;
   height: auto;
 
   display: block;
-  background-color: white;
+  background-color: lightgreen;
 }
 
 /* Mobile

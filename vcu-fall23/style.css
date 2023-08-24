@@ -253,7 +253,7 @@ blockquote {
   bottom: 0;
   height: 2.5rem;
   text-align: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 
   width: 100vw;
   height: auto;
