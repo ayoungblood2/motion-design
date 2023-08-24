@@ -150,11 +150,12 @@ img {
 
 
 .pres {
-  color: green;
+  color: lightgreen;
 }
 .pres-link:hover {
-  color: green;
+  color: lightgreen;
 }
+
 
 
 .guest {

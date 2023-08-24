@@ -184,11 +184,10 @@ img {
 
 
 .pres {
-  color: green;
+  color: lightgreen;
 }
-
 .pres-link:hover {
-  color: green;
+  color: lightgreen;
 }
 
 
@@ -220,14 +219,6 @@ img {
 
 .no-class {
   color: lightgray;
-}
-
-.transparent-link:hover{
-  color: transparent;
-}
-
-.green-link:hover{
-  color: lightgreen;
 }
 
 /* TEXT
