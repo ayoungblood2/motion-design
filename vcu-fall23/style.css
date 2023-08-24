@@ -212,7 +212,24 @@ blockquote {
   margin-left: 20px;
 }
 
+/* FOOTER
+--------------------------------------------------*/
 
+#btm {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100VW;
+  height: 2.5rem;            /* Footer height */
+
+  width: auto;
+  height: auto;
+
+  display: block;
+  background-color: white;
+}
 
 /* Mobile
 -------------------------------------------------- */
