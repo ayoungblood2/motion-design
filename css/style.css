@@ -134,6 +134,10 @@ img {
   color: white !important;
 }
 
+.blank-link:hover {
+  color: white;
+}
+
 .today,
 #more {
   background: lightgreen;
