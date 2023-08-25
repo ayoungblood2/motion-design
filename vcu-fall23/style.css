@@ -34,6 +34,8 @@ p,
   /* font-size: 14px; */
   font-style: normal;
   /* line-height: 1.1; */
+
+
   -ms-overflow-style: none;
   /* for Internet Explorer, Edge */
   scrollbar-width: none;
@@ -50,6 +52,14 @@ body::-webkit-scrollbar {
 div::-webkit-scrollbar {
   display: none;
   /* for Chrome, Safari, and Opera */
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: transparent;
+}
+
+::selection {
+  color: transparent;
 }
 
 .container {
