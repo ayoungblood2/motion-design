@@ -5,6 +5,11 @@
   src:url("../Fonts/5310067/a59c86da-34b7-4530-94e1-4ecbc5a29fb1.woff2") format("woff2"),url("Fonts/5310067/f27a5cd7-0400-46f7-9a18-c1ebddd268e4.woff") format("woff");
 }
 
+@font-face {
+  font-family: Avenir;
+  src: url(Avenir.ttc);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,10 +19,22 @@ html,
 body,
 p,
 .h1 {
-  font-family: Arial W05 Narrow5310067, sans-Serif;
+   /* font-family: Arial W05 Narrow5310067, sans-Serif; */
+  font-family: Avenir;
+  text-transform: uppercase;
+  text-align: justify;
+  line-height: 1.3;
+  letter-spacing: .05rem;
+  font-size: 10px;
+  vertical-align: baseline;
+  /* font-size: 14px; */
+  font-style: normal;
+  /* line-height: 1.1; */
+
+  /* font-family: Arial W05 Narrow5310067, sans-Serif;
   font-size: 14px;
   font-style: normal;
-  line-height: 1.1;
+  line-height: 1.1; */
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
 }
@@ -83,6 +100,7 @@ div::-webkit-scrollbar {
   border-left: 1px solid black; 
   border-bottom: 1px solid black; 
   border-right: 1px solid black;
+  font-size: 9px;
   
   background: lightgreen;
 }
