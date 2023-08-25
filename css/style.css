@@ -51,6 +51,14 @@ div::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: transparent;
+}
+
+::selection {
+  color: transparent;
+}
+
 .container {
   margin: 0px;
   display: -webkit-box;
