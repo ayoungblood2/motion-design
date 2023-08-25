@@ -100,7 +100,6 @@ div::-webkit-scrollbar {
   border-left: 1px solid black; 
   border-bottom: 1px solid black; 
   border-right: 1px solid black;
-  font-size: 9px;
   
   background: lightgreen;
 }
@@ -239,6 +238,7 @@ blockquote {
   height: 2.5rem;
   text-align: center;
   overflow: hidden;
+  font-size: 9px;
 
   width: 100vw;
   height: auto;
