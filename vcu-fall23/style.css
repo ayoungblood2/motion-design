@@ -272,6 +272,10 @@ ol {
   margin-left: 20px;
 }
 
+.numbers {
+  list-style-type:decimal;
+}
+
 ul {
   margin-left: 20px;
   margin-top: 0px;
