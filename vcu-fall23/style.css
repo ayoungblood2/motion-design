@@ -36,7 +36,8 @@ div::-webkit-scrollbar {
   /* for Chrome, Safari, and Opera */
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: transparent;
 }
 
@@ -86,7 +87,7 @@ div::-webkit-scrollbar {
   height: 100vh;
 }
 
-.main{
+.main {
   padding-left: 30px;
 }
 
@@ -106,7 +107,7 @@ div::-webkit-scrollbar {
   background: lightgreen;
 }
 
-.spiral{
+.spiral {
   width: 16px;
   padding-top: .5rem;
 }
@@ -128,7 +129,7 @@ mark {
   padding-left: 1px;
 }
 
-.mark-link:hover{
+.mark-link:hover {
   background: lightgreen;
   color: black;
   font-style: italic;
@@ -281,7 +282,7 @@ ol {
 }
 
 .numbers {
-  list-style-type:decimal;
+  list-style-type: decimal;
 }
 
 ul {
@@ -317,7 +318,7 @@ blockquote {
 /* HIDE FOR MOBILE
 -------------------------------------------------- */
 
-.right-mobile{
+.right-mobile {
   display: none;
 }
 
@@ -330,11 +331,11 @@ blockquote {
   body,
   p,
   .h1 {
-    font-size: 8px;
+    font-size: 10px;
     font-family: 'Roboto Mono', monospace;
     text-align: left;
-    line-height: 1.1;  
-  
+    line-height: 1.1;
+
     -ms-overflow-style: none;
     /* for Internet Explorer, Edge */
     scrollbar-width: none;
@@ -343,26 +344,26 @@ blockquote {
     overflow-x: hidden;
   }
 
-  .item1 { grid-area: header; }
-
   .left,
   .right {
-  overflow-y: scroll;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-  width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    width: 100vw;
   }
 
-  .left{
+  .left {
     border-right: none;
   }
-  
-  .right{
+
+  .right {
     display: none;
   }
 
-  .right-mobile{
+  .right-mobile {
     display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .row {
@@ -370,6 +371,11 @@ blockquote {
     border-bottom: 1px solid black;
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
   }
 
   #btm {
