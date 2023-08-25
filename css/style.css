@@ -268,8 +268,17 @@ blockquote {
   body, 
   p,
   .h1 {
-    font-size: 12px;
-    line-height: 1.1;
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    line-height: 1.1;  
+  
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: hidden;
+    overflow-x: hidden
   }
 
   .row {
