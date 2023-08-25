@@ -94,6 +94,10 @@ div::-webkit-scrollbar {
   height: 100vh;
 }
 
+.main{
+  padding-left: 30px;
+}
+
 .nav {
   position: fixed;
   text-align: center;
