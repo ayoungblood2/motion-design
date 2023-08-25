@@ -146,19 +146,27 @@ img {
 -------------------------------------------------- */
 
 .p1 {
-  background: #e6d2db;
+  background: rgb(254, 204, 255);
 }
 
 .p2 {
-  background: #eecdcd;
+  background: lightskyblue;
 }
 
 .p3 {
-  background: #d2e1f1;
+  background: rgb(248, 208, 133);
 }
 
 .p4 {
-  background: #d8d2e7;
+  background: #d3c3fd;
+}
+
+.p5 {
+  background: #f79b9b;
+}
+
+.final{
+  background: rgb(182, 237, 182);
 }
 
 .blank {
