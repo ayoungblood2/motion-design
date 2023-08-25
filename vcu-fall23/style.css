@@ -146,6 +146,14 @@ mark {
   padding-left: 1px;
 }
 
+.mark-link:hover{
+  background: lightgreen;
+  color: black;
+  font-style: italic;
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
 .row {
   width: auto;
   height: auto;
