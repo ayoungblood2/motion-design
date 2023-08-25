@@ -275,6 +275,11 @@ blockquote {
   .row {
     grid-template-columns: 26px auto;
   }
+
+  #btm {
+    width: auto;
+    height: auto;
+  }
   
 } 
 
