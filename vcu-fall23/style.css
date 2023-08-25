@@ -106,8 +106,13 @@ div::-webkit-scrollbar {
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
-  line-height: 5;
+  line-height: 2;
   background: lightgreen;
+}
+
+.spiral{
+  width: 16px;
+  padding-top: .5rem;
 }
 
 a {
