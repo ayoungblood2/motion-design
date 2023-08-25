@@ -26,7 +26,7 @@ p,
   text-align: justify;
   line-height: 1.3;
   letter-spacing: .05rem;
-  font-size: 10px;
+  font-size: 9px;
   vertical-align: baseline;
   /* font-size: 14px; */
   font-style: normal;
@@ -121,6 +121,7 @@ mark {
   background: lightgreen;
   /* highlight text */
   padding-right: 2px;
+  padding-left: 1px;
 }
 
 .row {
@@ -164,27 +165,39 @@ img {
 -------------------------------------------------- */
 
 .p1 {
-  background: rgb(254, 204, 255);
+  background: rgb(254, 212, 255);
+  padding-right: 2px;
+  padding-left: 1px;
 }
 
 .p2 {
-  background: lightskyblue;
+  background: rgb(171, 222, 254);
+  padding-right: 2px;
+  padding-left: 1px;
 }
 
 .p3 {
-  background: rgb(248, 208, 133);
+  background: rgb(255, 231, 175);
+  padding-right: 2px;
+  padding-left: 1px;
 }
 
 .p4 {
-  background: #c0a8ff;
+  background: #daccff;
+  padding-right: 2px;
+  padding-left: 1px;
 }
 
 .p5 {
-  background: #ff9b9b;
+  background: #fcc88d;
+  padding-right: 2px;
+  padding-left: 1px;
 }
 
 .final {
   background: rgb(197, 255, 197);
+  padding-right: 2px;
+  padding-left: 1px;
 }
 
 .blank {
@@ -294,8 +307,8 @@ blockquote {
   body,
   p,
   .h1 {
-    font-size: 12px;
-    line-height: 1.1;
+    font-size: 9px;
+    line-height: 1.3;
   }
 
   .row {
