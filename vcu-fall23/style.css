@@ -105,6 +105,7 @@ div::-webkit-scrollbar {
   border-right: 1px solid black;
   line-height: 2;
   background: lightgreen;
+  z-index: 100;
 }
 
 .spiral {
