@@ -137,6 +137,10 @@ mark {
   padding-left: 1px;
 }
 
+.strike{
+  text-decoration: line-through;
+}
+
 .row {
   width: auto;
   height: auto;
