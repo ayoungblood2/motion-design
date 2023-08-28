@@ -217,6 +217,10 @@ img {
   padding-left: 1px;
 }
 
+.presentation{
+  color: #FF978E;
+}
+
 .blank {
   color: white !important;
 }
