@@ -105,7 +105,6 @@ div::-webkit-scrollbar {
   border-right: 1px solid black;
   line-height: 2;
   background: lightgreen;
-  z-index: 100;
 }
 
 .spiral {
@@ -371,15 +370,6 @@ blockquote {
 
   .right-mobile {
     display: block;
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-
-  .row {
-    grid-template-columns: auto;
-    border-bottom: 1px solid black;
-    display: grid;
-    grid-template-columns: 1fr;
   }
 
   .nav {
