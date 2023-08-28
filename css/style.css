@@ -249,7 +249,7 @@ blockquote {
   }
 
   .left {
-    border-right: none;
+    border-right: 1px solid black;
   }
 
   #btm {
