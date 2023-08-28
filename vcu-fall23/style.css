@@ -315,6 +315,7 @@ blockquote {
   overflow: hidden;
   font-size: 9px;
   text-transform: uppercase;
+  z-index: 2;
 
   width: 100vw;
   height: auto;
