@@ -101,21 +101,6 @@ div::-webkit-scrollbar {
   height: 100vh;
 }
 
-.nav {
-  position: fixed;
-  text-align: center;
-  right: 10px;
-  width: 24px;
-  height: auto;
-  padding: 0px;
-  padding-bottom: 2px;
-  border-left: 1px solid black; 
-  border-bottom: 1px solid black; 
-  border-right: 1px solid black;
-  
-  background: lightgreen;
-}
-
 a {
   color: black;
   text-decoration: none;
@@ -126,33 +111,6 @@ a:hover {
   color: white;
 }
 
-.row {
-  width: auto;
-  height: auto;
-  border-bottom: 1px solid black;
-  padding: 10px 10px 10px 10px;
-  border-right: 1px solid black;
-
-  display: grid;
-  grid-template-columns: 36px auto;
-}
-
-.section {
-  padding: 10px 40px 10px 10px;
-  border-top: 1px solid black;
-}
-
-#syllabus {
-  border-top: 0px;
-}
-
-/* #more {
-  height: 350px;
-} */
-
-img {
-  width: 100%;
-}
 
 
 /* COLOR
@@ -292,28 +250,6 @@ blockquote {
 
   .left {
     border-right: none;
-  }
-
-  .right {
-    display: none;
-  }
-
-  .right-mobile {
-    display: block;
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-
-  .row {
-    grid-template-columns: auto;
-    border-bottom: 1px solid black;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .nav {
-    position: fixed;
-    top: 0;
   }
 
   #btm {
