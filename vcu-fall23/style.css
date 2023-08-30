@@ -221,7 +221,9 @@ img {
 }
 
 .student-pres{
-  color: #fa4332;
+  background: #ff7d71;
+  padding-right: 2px;
+  padding-left: 1px;
 }
 
 .blank {
