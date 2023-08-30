@@ -254,6 +254,13 @@ img {
   color: lightgreen;
 }
 
+.pres-title{
+  color: green;
+}
+
+.pres-title-link:hover{
+  color: green;
+}
 
 .guest {
   color: red;
