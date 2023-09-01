@@ -226,6 +226,10 @@ img {
   padding-left: 1px;
 }
 
+.student-pres-link:hover{
+  color: #FF978E;
+}
+
 .blank {
   color: white !important;
 }
