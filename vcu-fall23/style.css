@@ -214,6 +214,13 @@ img {
   padding-left: 1px;
 }
 
+.pw{
+  color: white;
+  background: #4a86e8;
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
 .final {
   background: rgb(197, 255, 197);
   padding-right: 2px;
