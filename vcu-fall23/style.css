@@ -214,6 +214,26 @@ img {
   padding-left: 1px;
 }
 
+.project1:hover {
+  color: rgb(254, 212, 255);
+}
+
+.project2:hover {
+  color: rgb(171, 222, 254);
+}
+
+.project3:hover {
+  color: rgb(255, 231, 175);
+}
+
+.project4:hover {
+  color: #daccff;
+}
+
+.project5:hover {
+  color: #fcc88d;
+}
+
 .pw{
   color: white;
   background: #4a86e8;
