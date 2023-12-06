@@ -386,7 +386,6 @@ blockquote {
     font-family: 'Roboto Mono', monospace;
     text-align: left;
     line-height: 1.3;
-
     -ms-overflow-style: none;
     /* for Internet Explorer, Edge */
     scrollbar-width: none;
@@ -422,8 +421,8 @@ blockquote {
   }
 
   #btm {
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
   }
 
 }
