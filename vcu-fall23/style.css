@@ -394,7 +394,6 @@ blockquote {
     /* for Firefox */
     overflow-y: hidden;
     overflow-x: hidden;
-    height: 100vh; /* or any other fixed height */
   }
 
   .left,
