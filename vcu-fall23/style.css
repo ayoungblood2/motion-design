@@ -58,7 +58,6 @@ div::-webkit-scrollbar {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   width: 100vw;
-  height: 100vh;
 }
 
 .left {
