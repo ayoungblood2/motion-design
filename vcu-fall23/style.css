@@ -23,8 +23,7 @@ p,
   scrollbar-width: none;
   /* for Firefox */
   overflow-y: hidden;
-  overflow-x: hidden;
- /* or any other fixed height */
+  overflow-x: hidden
 }
 
 body::-webkit-scrollbar {
@@ -58,6 +57,9 @@ div::-webkit-scrollbar {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   width: 100vw;
+  height: 100vh;
+  /* avoid browser level touch actions */
+  xtouch-action: none;
 }
 
 .left {
@@ -386,6 +388,7 @@ blockquote {
     font-family: 'Roboto Mono', monospace;
     text-align: left;
     line-height: 1.3;
+
     -ms-overflow-style: none;
     /* for Internet Explorer, Edge */
     scrollbar-width: none;
@@ -400,7 +403,6 @@ blockquote {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     width: 100vw;
-    height: 100vh;
   }
 
   .left {
@@ -421,8 +423,8 @@ blockquote {
   }
 
   #btm {
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
   }
 
 }
