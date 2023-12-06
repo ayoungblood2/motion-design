@@ -402,7 +402,6 @@ blockquote {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     width: 100vw;
-    height: 100vh;
   }
 
   .left {
