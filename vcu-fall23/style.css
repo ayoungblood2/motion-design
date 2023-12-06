@@ -82,6 +82,7 @@ div::-webkit-scrollbar {
   overflow-y: scroll;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
+  height: 100vh;
 }
 
 .main {
@@ -400,6 +401,7 @@ blockquote {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     width: 100vw;
+    height: 100vh;
   }
 
   .left {
