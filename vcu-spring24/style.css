@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+p,
+.h1 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: justify;
+  line-height: 1.3;
+  letter-spacing: .05rem;
+  font-size: 11px;
+  vertical-align: baseline;
+  font-style: normal;
+
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+  overflow-y: hidden;
+  overflow-x: hidden
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
+
+div::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: transparent;
+}
+
+::selection {
+  color: transparent;
+}
+
+.container {
+  margin: 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  width: 100vw;
+}
+
+.left {
+  width: 50vw;
+  border-right: 1px solid black;
+}
+
+.left+.home {
+  background: lightgreen;
+}
+
+.right {
+  width: 50vw;
+}
+
+.home {
+  padding: 10px 10px 10px 10px;
+}
+
+.left,
+.right {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 100vh;
+}
+
+.main {
+  padding-left: 30px;
+}
+
+.nav {
+  position: fixed;
+  text-align: center;
+  right: 10px;
+  width: 24px;
+  height: auto;
+  /* padding: 0px; */
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  line-height: 2;
+  background: lightgreen;
+}
+
+.spiral {
+  width: 16px;
+  padding-top: .5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  z-index: 10;
+}
+
+a:hover {
+  color: white;
+}
+
+mark {
+  background: lightgreen;
+  /* highlight text */
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.mark-link:hover {
+  background: lightgreen;
+  color: black;
+  font-style: italic;
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.strike{
+  text-decoration: line-through;
+}
+
+.row {
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  /* border-right: 1px solid black; */
+
+  display: grid;
+  grid-template-columns: 36px auto;
+}
+
+img {
+  width: 100%;
+}
+
+.section {
+  padding: 10px 48px 10px 10px;
+  border-top: 1px solid black;
+}
+
+.schedule{
+  border-bottom: 1px solid black;
+}
+
+/* #syllabus {
+  border-top: 0px;
+} */
+
+#footer {
+  border-top: 0px;
+}
+
+/* #more {
+  height: 350px;
+} */
+
+img {
+  width: 100%;
+}
+
+/* COLOR
+-------------------------------------------------- */
+
+.p1 {
+  background: rgb(254, 212, 255);
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.p2 {
+  background: rgb(171, 222, 254);
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.p3 {
+  background: rgb(255, 231, 175);
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.p4 {
+  background: #daccff;
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.p5 {
+  background: #fcc88d;
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.project1:hover {
+  color: rgb(254, 212, 255);
+}
+
+.project2:hover {
+  color: rgb(171, 222, 254);
+}
+
+.project3:hover {
+  color: rgb(255, 231, 175);
+}
+
+.project4:hover {
+  color: #daccff;
+}
+
+.project5:hover {
+  color: #fcc88d;
+}
+
+.pw{
+  color: white;
+  background: #4a86e8;
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.final {
+  background: rgb(197, 255, 197);
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.student-pres{
+  background: #FF978E;
+  padding-right: 2px;
+  padding-left: 1px;
+}
+
+.student-pres-link:hover{
+  color: #FF978E;
+}
+
+.blank {
+  color: white !important;
+}
+
+.blank-link:hover {
+  color: white;
+}
+
+.today,
+#more {
+  background: lightgreen;
+}
+
+.more{
+  background: lightgreen;
+}
+
+.demo {
+  color: orange;
+}
+
+.demo-link:hover {
+  color: orange;
+}
+
+
+.pres {
+  color: lightgreen;
+}
+
+.pres-link:hover {
+  color: lightgreen;
+}
+
+.pres-title{
+  color: green;
+}
+
+.pres-title-link:hover{
+  color: green;
+}
+
+.guest {
+  color: red;
+}
+
+.guest-link:hover {
+  color: red;
+}
+
+
+.crit {
+  color: blue;
+}
+
+.crit-link:hover {
+  color: blue;
+}
+
+
+.read {
+  color: violet;
+}
+
+.read-link:hover {
+  color: violet;
+}
+
+.no-class {
+  color: lightgray;
+}
+
+/* TEXT
+--------------------------------------------------*/
+
+ol {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.numbers {
+  list-style-type: decimal;
+}
+
+ul {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+blockquote {
+  margin-left: 20px;
+}
+
+/* FOOTER
+--------------------------------------------------*/
+
+#btm {
+  border-top: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+  text-align: center;
+  overflow: hidden;
+  font-size: 9px;
+  text-transform: uppercase;
+  z-index: 2;
+
+  width: 100vw;
+  height: auto;
+
+  display: block;
+  background-color: lightgreen;
+}
+
+/* HIDE FOR MOBILE
+-------------------------------------------------- */
+
+.right-mobile {
+  display: none;
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 650px) {
+
+  html,
+  body,
+  p,
+  .h1 {
+    font-size: 11px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    line-height: 1.3;
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .left,
+  .right {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .left {
+    border-right: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .right-mobile {
+    display: block;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+  }
+
+  #btm {
+    width: auto;
+    height: auto;
+  }
+
+}
